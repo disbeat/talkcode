@@ -1,0 +1,112 @@
+body {
+	background: url('../images/pattern_148.gif') repeat top left;
+	font-family: georgia, serif;
+}
+
+a:link, a:active, a:visited {
+	color: #0072BC;
+}
+
+a:hover {
+	color: #0072BC;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	border-bottom: 1px dotted #0072BC;
+}
+
+.container {
+	background: white;
+	color: #333;
+	-moz-box-shadow: 0px 0px 10px black;
+	-webkit-box-shadow: 0px 0px 10px black;
+	padding: 40px;
+}
+
+#header {
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	color: #333;
+	font-size: 7.9em;
+	margin: 0px;
+}
+
+#context {
+	text-align: right;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#content {
+	margin: 40px 0px;
+	width: 100%;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#content table {
+	witdh: 100%;
+}
+
+.topic {
+	font-size: 2em;
+}
+
+.classification {
+	width: 20px;
+}
+div .box { 
+	font-size: 3px;
+	margin: 0px;
+	padding: 0px 4px;
+	display: inline;
+}
+div .box.red { background-color: #ff4f4f; }
+div .box.green { background-color: #88ff9a; }
+div .box.yellow { background-color: #fff871; }
+
+div .atom.red a { color: #ce0000; }
+div .atom.green a { color: #008814; }
+div .atom.yellow a { color: black; }
+
+div .atom a:link, div .atom a:active, div .atom a:visited {
+	border: none;
+}
+div .atom a:hover {
+	border-bottom: 1px dotted #0072BC;
+}
+
+div .atom .topic { font-size: 10px; }
+
+tr.submission-info {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#footer {
+	text-align: center;
+	width: 100%;
+}
+
+p.message {
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+

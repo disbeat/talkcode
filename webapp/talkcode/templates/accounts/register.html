@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block title %}- Register{% endblock %}
+
+{% block container %}
+
+
+    <h1>Create an account</h1>
+	<form method="POST" action="">
+		<table>
+			{{ user_form.as_table }}
+			{{ form.as_table }}
+		</table>
+		<input type="submit" value="Register" />
+	</form>
+{% endblock %}

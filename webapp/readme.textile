@@ -1,0 +1,28 @@
+h1. Semantic Feedback
+
+A web service for capturing online feedback, that will automatically analyse the text content, categorize it and qualify it.
+
+By "Sérgio Santos":http://sergiosantos.info and "Marco Simões":http://twitter.com/disbeat
+
+
+h2. Requirements
+
+* simplejson
+* "wikipydia":http://github.com/j2labs/wikipydia
+
+h2. TODO
+
+* -Interface for submission visualization-
+* -Interface for topic statistics-
+* -Global polarization of a submission-
+
+* -Get related words from wikipedia-
+
+* -Use subjectivity in the sentimental classfier-
+* -Use POS in the sentimental classfier-
+* Remove stopwords from sentimental analysis
+* Refactoring of the sentimental analysis code
+
+* -Remove topics and topic term-
+* -Verification for only one word for a topic and topic term- 
+* -Atom edition page-

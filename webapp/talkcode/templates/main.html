@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta content="Boks - 0.5.1" name="generator"/>
+	
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="{{MEDIA_URL}}css/screen.css" type="text/css" media="screen, projection"/>
+	<link rel="stylesheet" href="{{MEDIA_URL}}css/print.css" type="text/css" media="print"/>
+	<!--[if lt IE 8]><link rel="stylesheet" href="{{MEDIA_URL}}css/ie.css" type="text/css" media="screen, projection"/><![endif]-->
+	<link rel="stylesheet" href="{{MEDIA_URL}}css/custom.css" type="text/css" media="screen, projection"/>
+
+	{% block head_meta %}{% endblock %}
+	
+	<title>Talk Code {% block title %}{% endblock %}</title>
+
+</head>
+<body>
+<div class="container">
+	<div class="span-20 last" id="header">
+	  <h1><a href="{% url index %}">Talk Code</a></h1>
+	</div>
+
+	{% block container %}{% endblock container %}
+
+	<div class="clear span-20 last" id="footer">Marco Simões e Pedro Gaspar - codebits powered project!</div>
+</div>
+</body>
+</html>
